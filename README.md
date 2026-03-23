@@ -4,13 +4,18 @@
 
 > 저는 읽고 쓰는 사랑하는 사람이자,
 > 그 삶을 지속 가능하게 만드는 시스템을 설계하는 기획자입니다.
-> 관리가 아닌 연결을 추구합니다.
+> 지식 관리가 아닌 연결을 추구합니다.
 
 * * *
 
 ## ✔️ My Knowledge Pipeline: 3-Level Architecture
 
+
 저는 정보를 \[수집 - 통합/연결 - 생산\]의 3단계로 관리하며, 파편화된 도구들을 하나의 시스템으로 통합하여 운영합니다.
+<br>
+<div align="center">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/6491a6af-57ac-4e0e-b2f8-ceac0c229170" />
+</div>
 
 ### **LV 1. Collection & Fragmentation**
 
