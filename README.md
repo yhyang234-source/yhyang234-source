@@ -51,8 +51,8 @@
 
 ### **🌟 Personal: AI-Native Life OS & Side Projects**
 
-- **[My Routine Master](https://github.com/yony-source/routine-master-gas) (AppSheet + GAS):** 분산된 일상의 기록(독서, 영화, 루틴)을 하나로 통합한 맞춤형 라이프 앱 개발 및 에러 로그 모니터링 시스템 운영.
-- **[Shopping Master](https://github.com/yony-source/shopping-master-gas) (GAS + Gemini AI):** Gmail 파싱과 Gemini 2.5 Flash를 결합하여 지능형 소비 분석 시스템 구축.
+- **[My Routine Master](https://github.com/yhyang234-source/routine-master-gas) (AppSheet + GAS):** 분산된 일상의 기록(독서, 영화, 루틴)을 하나로 통합한 맞춤형 라이프 앱 개발 및 에러 로그 모니터링 시스템 운영.
+- **[Shopping Master](https://github.com/yhyang234-source/shopping-master-gas) (GAS + Gemini AI):** Gmail 파싱과 Gemini 2.5 Flash를 결합하여 지능형 소비 분석 시스템 구축.
 - **Knowledge Migration:** Python을 활용하여 플랫폼에 종속된 데이터를 **Obsidian** 기반의 독립적 지식 베이스로 내재화하는 툴킷 개발.
 
 <br>
