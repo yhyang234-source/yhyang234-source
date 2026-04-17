@@ -1,93 +1,79 @@
-# 👋 Hello, I'm Yony | Analog Soul, Digital Mind
+# Yony | Yang Younghee
 
-<br>
+기획자입니다. 
 
-> 저는 읽고 쓰는 사랑하는 사람이자,
-> 그 삶을 지속 가능하게 만드는 시스템을 설계하는 기획자입니다.
-> 지식 관리가 아닌 연결을 추구합니다.
+---
 
-* * *
+저는 업무 자동화와 지식 관리를 위해 코드를 공부합니다. 
+"필요한 것을 만들기 위해" 라는 동기가 먼저였고, 언어는 나중에 따라왔습니다.
 
-## ✔️ My Knowledge Pipeline: 3-Level Architecture
+10년간 현업에서 대리점 관리와 구매, 발주, 재고, 실적을 관리했고,  
+지금은 사내 DX·AX 로드맵을 설계하면서 RPA 자동화를 직접 개발·운영합니다.  
+퇴근 후에는 개인 생산성 시스템을 고쳐 씁니다.
 
+---
 
-저는 정보를 \[수집 - 통합/연결 - 생산\]의 3단계로 관리하며, 파편화된 도구들을 하나의 시스템으로 통합하여 운영합니다.
-<br>
-<div align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/6491a6af-57ac-4e0e-b2f8-ceac0c229170" />
-</div>
+## Why GitHub
 
-### **LV 1. Collection & Fragmentation**
+버전 관리가 필요해서입니다.
 
-- **Analog:** 새벽마다 만년필로 모닝페이지를 씁니다. 몰스킨을 펼쳐놓으며 아이디어를 포착합니다.
-- **Digital:** Google Keep, Upnote, Phone Gallery 등 휘발되기 쉬운 영감을 찰나에 기록합니다. AppSheet로 루틴을 체크합니다.
+아이디어를 메모하던 방식으로 코드를 다룰 수는 없었습니다.  
+어제의 스크립트가 오늘의 시스템을 망가뜨리는 경험을 몇 번 한 뒤,  
+Git을 쓰는 것이 선택이 아니라 위생의 문제라는 걸 이해했습니다.
 
-### **LV 2. Integration & Connection (The Core)**
+이 계정에는 두 종류의 코드가 있습니다.  
+하나는 사내 자동화(Brity RPA, ERP 연동)이고,  
+다른 하나는 개인 생산성 시스템(PKM 동기화, 소비 분석, 루틴 추적)입니다.  
+둘 다 "내가 쓰기 위해" 만든 것들입니다.
 
-- **All-in-One Hub:** **AppSheet**를 통해 루틴, 독서, 영화 기록을 하나로 통합했습니다.
-    - 개별 앱과 종이에 흩어졌던 데이터를 모바일 인터페이스로 집중 관리합니다.
-    - 시스템의 안정성을 위해 **에러 로그(Error Log)** 모니터링 대시보드를 직접 운영합니다.
-- **Refinement:** UpNote,Obsidian (PARA/MOC 기반 정성적 아이디어 연결) & **Google Sheets** (정량 데이터 축적).
-- **AI Sync:** **Gemini AI**를 활용해 아날로그적 영감과 디지털 데이터를 교차 분석합니다.
+---
 
-### **LV 3. Publishing & Achievement**
+## What I Build
 
-- **Channels:** Blog, Brunch, Naver Cafe(개인 아카이브), 도서
-- **Philosophy:** 단순 기록을 넘어 '생각의 전환'이 일어난 지점만을 선별하여 글을 씁니다. 
+**PKM & 지식 관리**  
+UpNote에서 Obsidian으로의 단방향 동기화 엔진(`sync_engine.py`)을 직접 구현해 운영합니다.  
+UUID 기반 파일 매핑, mtime 변경 감지, Windows Task Scheduler 연동.  
+2,700개 이상의 노트가 이 파이프라인 위에서 움직입니다.
 
-<br>
+**업무 자동화**  
+Brity RPA로 사내 ERP 데이터 업데이트, 회계·영업 팀 반복 업무를 자동화합니다.  
+실행 환경은 Rhino/ES5이며, .NET 클래스를 직접 호출하는 방식으로 파일 처리를 우회합니다.
 
-* * *
+**데스크탑 대시보드**  
+Electron 기반의 플로팅 대시보드 DX-board를 개발 중입니다.  
+URL, 로컬 앱, Python 스크립트를 더블클릭 하나로 실행하는 빠른 실행 도구입니다.
 
-## 🚀 Key Projects & Experience
+**개인 데이터 파이프라인**  
+Google Sheets 적재 → Appsheet에서 기록 → Telegram 알림까지,  
+GAS환경에서 재무·소비·루틴·환율 데이터를 하나의 생태계 안에서 관리합니다.
 
-### **🏢 Professional: Enterprise Solutions & Data Insight**
+---
 
-- **RPA Operation:** **Brity RPA**를 활용한 사내 자동화 프로세스 운영 및 사내 아이디어 공모전 당선작의 실제 로직 설계 및 개발 배포.
-- **Data Visualization:** **ERP DB**를 연결한 **Power BI** 실시간 비즈니스 대시보드 구축으로 데이터 기반 의사결정 체계 마련.
-- **Service Planning:** 10년의 비즈니스 인사이트를 바탕으로 현장의 요구사항을 기술적 솔루션으로 치환하는 가교 역할을 수행합니다.
+## Tech Stack
 
-<br>
+| 영역 | 도구 |
+|---|---|
+| **자동화** | Google Apps Script, Python, Brity RPA |
+| **데스크탑** | Electron |
+| **데이터·BI** | Google Sheets, Power BI |
+| **PKM** | UpNote, Obsidian |
+| **환경** | Windows, VSCode, Git |
 
-### **🌟 Personal: AI-Native Life OS & Side Projects**
+---
 
-- **[My Routine Master](https://github.com/yhyang234-source/routine-master-gas) (AppSheet + GAS):** 분산된 일상의 기록(독서, 영화, 루틴)을 하나로 통합한 맞춤형 라이프 앱 개발 및 에러 로그 모니터링 시스템 운영.
-- **[Shopping Master](https://github.com/yhyang234-source/shopping-master-gas) (GAS + Gemini AI):** Gmail 파싱과 Gemini 2.5 Flash를 결합하여 지능형 소비 분석 시스템 구축.
-- **Knowledge Migration:** Python을 활용하여 플랫폼에 종속된 데이터를 **Obsidian** 기반의 독립적 지식 베이스로 내재화하는 툴킷 개발.
+## Writing
 
-<br>
+코드보다 글을 먼저 씁니다.
 
-* * *
+[Naver Blog](https://blog.naver.com/yana_stella) · [Brunch](https://brunch.co.kr/@yonycompany)  
+저서: 《일상채우기기술》 《미라클리딩》
 
-## 🛠️ Tech Stack & Tools
+---
 
-| Category | Tools & Methodologies |
-| --- | --- |
-| **Automation** | ![AppSheet](https://img.shields.io/badge/AppSheet-4285F4?style=flat-square&logo=google&logoColor=white) ![GAS](https://img.shields.io/badge/GAS-4285F4?style=flat-square&logo=google-apps-script&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `Brity RPA` |
-| **Data & BI** | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=microsoft-power-bi&logoColor=black) `Google Sheets` |
-| **PKM & Analog** | `Fountain Pen` & `Moleskine`, `UpNote`, `Obsidian`, `Google Keep` |
-| **Methodology** | `PARA`, `MOC`, `GTD`, `Logic Design` |
+## Note for Developers
 
-<br>
+저는 전문 개발자가 아닙니다.  
+시스템을 설계하는 기획자이고, 그 시스템을 직접 구현하기 위해 코드를 씁니다.
 
-* * *
-
-## 🖋️ Get in Touch
-
-- **Channels:** [Naver Blog](https://blog.naver.com/yana_stella) | [Brunch](https://brunch.co.kr/@yonycompany) | [Verified Profile](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=25508635&qvt=0&query=%EC%96%91%EC%98%81%ED%9D%AC%20%EC%9E%91%EA%B0%80)
-- **Books:** - 📚 **일상채우기기술** | 📚 **미라클리딩**
-
-<br>
-
-* * *
-
-## ⚠️ Note for Developers
-
-저는 코딩을 전문으로 하는 개발자가 아닌, 시스템을 설계하는 서비스 기획자입니다. 
-
-사이드 프로젝트로 혼자 진행하다보니 코드가 다소 투박할 수 있지만, 실질적인 문제를 해결하고 자동화하는 데 집중합니다. 
-
-더 나은 로직에 대한 조언은 언제나 환영입니다! 😊
-
-<br>
-
+코드가 다소 투박할 수 있습니다.  
+더 나은 로직에 대한 조언은 언제나 환영합니다.
